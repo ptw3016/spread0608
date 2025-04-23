@@ -135,11 +135,7 @@ body {
 }
 
 /* LocationSection 배경 그라데이션 수정 */
-#ministriesmap {
-   background: linear-gradient(135deg, #e0f2fe 0%, #dcfce7 100%); /* 밝은 하늘색에서 연한 녹색으로 */
-   /* background: linear-gradient(to bottom right, #f3e8ff, #d1fae5); /* 연보라에서 민트 */
-   /* background: linear-gradient(to bottom right, #ccfbf1, #e0f2fe); /* 민트에서 하늘색 */
-}
+
 
 .dark #ministriesmap {
    background: linear-gradient(135deg, #1e3a8a 0%, #065f46 100%); /* 어두운 파란색에서 어두운 녹색으로 */
@@ -149,11 +145,11 @@ body {
 .scroll-to-top-button {
   position: fixed;
   bottom: 2rem;
-  left: 2rem;
-  background: rgb(45 212 191);
+  right: 2rem;
+  background: rgb(132 48 136 / var(--tw-bg-opacity, 1));
   color: white;
-  width: 3rem; /* 48px */
-  height: 3rem; /* 48px */
+  width: 4rem; /* 48px */
+  height: 4rem; /* 48px */
   border-radius: 50%;
   border: none;
   display: flex;
@@ -172,7 +168,7 @@ body {
 }
 
 .scroll-to-top-button i {
-  font-size: 1.25rem; /* Adjust icon size if needed */
+  font-size: 1.75rem; /* Adjust icon size if needed */
 }
 
 /* Fade in/out transition for the button */
